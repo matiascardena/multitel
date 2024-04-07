@@ -6,8 +6,8 @@ const Footer = () => {
 
         <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left mb-1">
           <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-            <img src="./Logo_AceroCorp.svg" className="w-14 h-14 text-white p-2 bg-white rounded-full">
-            </img>
+            {/* <img src="./Logo_AceroCorp.svg" className="w-14 h-14 text-white p-2 bg-white rounded-full">
+            </img> */}
             <span className="text-3xl text-black"> <b>Multi</b> </span>
             <span className="text-3xl text-Multitel"> <b>Tel</b> </span>
 
