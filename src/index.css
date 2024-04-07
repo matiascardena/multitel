@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Lora", serif;
+}
+
+body {
+  /* background-color: #111827; */
+  /* background-color: #111827 */
+  /* background-image: url('./../public/imagenes/backgroundImage/PapelTapiz_2_Oscuro.jpg'); */
+  background-size: cover;
+  background-position: center;
+  font-family: "Klik Light", serif;
+}
+
+@font-face {
+  font-family: 'Klik Light';
+  src: url('/fonts/Klik-Light.otf') format('truetype');
+}
+
+
+/* -----------------------------------
+           Colores 
+ -----------------------------------*/
+.bg-Multitel {
+  background-color: #05c4fc;
+}
+.bg-secondary {
+  background-color: #313131;
+}
+
+.colorWhite {
+  background-color: white;
+}
+
+
+/* -----------------------------------
+           Textos 
+ -----------------------------------*/
+.text-Multitel {
+  color: #0ac5f5;
+}
+
+.text-secondary {
+  color: #313131;
+}
+
+.titulo-text {
+  font-size: 20px;
+}
+
+.subtitulo-text {
+  font-size: 20px;
+}
+
+.parrafo-text {
+  font-size: 16px;
+}
+
+
+/* -----------------------------------
+           Components 
+ -----------------------------------*/
+
+.loading {
+  z-index: 99;
+}
+
+/* carousel-custom.css */
+.carousel-image {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+.enlarged {
+  z-index: 99;
+  width: 80%;
+  max-width: 1000px;
+  height: 65%;
+  max-height: 400;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -35%);
+}
