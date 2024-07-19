@@ -30,7 +30,9 @@ const HeaderBasico = () => {
       className="h-[8%] fixed left-0 top-0 w-full z-10 ease-in duration-300">
       <div className="max-w-[1240px] m-auto flex justify-between items-center p-1 text-white">
       <Link to="/">
-          <img loading="lazy" className="w-10 h-10" src="./favicon.ico" />
+          {/* <img loading="lazy" className="w-10 h-10" src="./favicon.ico" /> */}
+          <span className="text-xl text-black"> <b>Multi</b> </span>
+              <span className="text-xl text-Multitel"> <b>Tel</b> </span>
         </Link>
         <ul style={{ color: `${textColor}` }} className="hidden sm:flex">
           <li className="p-4">

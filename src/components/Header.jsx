@@ -10,26 +10,26 @@ const Navbar = () => {
 
 
   return (
-    <div className="bg-white fixed left-0 top-0 w-full z-10 ease-in xs:h-12 md:h-24 lg:h-12 mx-auto">
-      <div className="max-w-[1240px] m-auto mb-4 md:mb-0 flex flex-wrap items-center justify-center">
+    <div className="bg-white fixed left-0 top-0 w-full z-10 ease-in xs:h-12 md:h-24 lg:h-12 xl:h-12 mx-auto">
+      <div className="max-w-[1240px] m-auto mb-4 mt-2 md:mb-0 flex flex-wrap items-center justify-center">
       <a href="/#Home" className="hidden sm:flex text-Multitel ml-10 items-center">
-              <img loading="lazy" className="w-10 h-10 items-right m-1" src="./Logo_Multitel.png" />
+              {/* <img loading="lazy" className="w-10 h-10 items-right m-1" src="./Logo_Multitel.png" /> */}
               <span className="text-xl text-black"> <b>Multi</b> </span>
               <span className="text-xl text-Multitel"> <b>Tel</b> </span>
             </a>
       <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center mr-2">
         <ul className="hidden sm:flex">
           <li className="px-4 hover:text-blue-400 transition-colors duration-300 border-b-2 hover:border-blue-400 transition-colors duration-300">
-            <a href="/#Conocenos">Conocenos</a>
+            <a href="/#SeccionConocenos">Conocenos</a>
           </li>
           <li className="px-4 hover:text-blue-400 transition-colors duration-300 border-b-2 hover:border-blue-400 transition-colors duration-300">
-            <a href="/#Productos">Productos</a>
+            <a href="/#SeccionProductos">Productos</a>
           </li>
           <li className="px-4 hover:text-blue-400 transition-colors duration-300 border-b-2 hover:border-blue-400 transition-colors duration-300">
-            <a href="/#Obras">Nuestas Obras</a>
+            <a href="/#SeccionObras">Nuestras Obras</a>
           </li>
           <li className="px-4 hover:text-blue-400 transition-colors duration-300 border-b-2 hover:border-blue-400 transition-colors duration-300">
-            <a href="/#Consultanos">Consultanos</a>
+            <a href="/#SeccionConsultanos">Consultanos</a>
           </li>
         </ul>
       </nav>
@@ -60,22 +60,22 @@ const Navbar = () => {
             <li
               onClick={handleNav}         
               className="p-4 text-2xl hover:text-blue-400 transition-colors duration-300 border-b-2 hover:border-blue-400 transition-colors duration-300">
-              <a href="/#Conocenos">Conocenos</a>
+              <a href="/#SeccionConocenos">Conocenos</a>
             </li>
             <li
               onClick={handleNav}
               className="p-4 text-2xl hover:text-blue-400 transition-colors duration-300 border-b-2 hover:border-blue-400 transition-colors duration-300">
-              <a href="/#Productos">Productos</a>
+              <a href="/#SeccionProductos">Productos</a>
             </li>
             <li
               onClick={handleNav}
               className="p-4 text-2xl hover:text-blue-400 transition-colors duration-300 border-b-2 hover:border-blue-400 transition-colors duration-300">
-              <a href="/#Obras">Nuestas Obras</a>
+              <a href="/#SeccionObras">Nuestas Obras</a>
             </li>
             <li
               onClick={handleNav}
               className="p-4 text-2xl hover:text-blue-400 transition-colors duration-300 border-b-2 hover:border-blue-400 transition-colors duration-300">
-              <a href="/#Consultanos">Consultanos</a>
+              <a href="/#SeccionConsultanos">Consultanos</a>
             </li>
           </ul>
         </div>

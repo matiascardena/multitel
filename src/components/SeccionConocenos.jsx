@@ -3,7 +3,7 @@ import {motion} from 'framer-motion';
 
 const SeccionConocenos = () => {
     return (
-        <section className="md:h-full lg:h-screen w-full overflow-hidden">
+        <section className="md:h-full lg:h-screen xl:h-screen w-full overflow-hidden">
             <div className="container px-6 py-10 mx-auto">
                 <div className="lg:flex lg:items-center">
                     <div className="w-full space-y-12 lg:w-1/2">
@@ -18,7 +18,7 @@ const SeccionConocenos = () => {
                                hidden: { opacity: 0, y: 50 },
                                visible: { opacity: 1, y: 0 }
                              }}
-                            className="text-xl font-semibold text-gray-800 lg:text-4xl dark:text-white">Nuestra empresa está dividida en 3 departamentos<br />  a fin de brindar un mejor servicio:</motion.h1>
+                            className="text-xl font-semibold text-gray-800 lg:text-4xl dark:text-white">Nuestra empresa está compuesta por departamentos especializados</motion.h1>
 
                             <div className="mt-2">
                                 <span className="inline-block w-40 h-1 rounded-full bg-Multitel"></span>
@@ -100,7 +100,7 @@ const SeccionConocenos = () => {
                          }}                        
                          className="mt-4 ">
                             <span className="inline-block w-40 h-1 rounded-full bg-Multitel"></span>
-                            <Link to="/#" className="inline-block rounded text-2xl hover:text-blue-400 transition-colors duration-300"><b>Ver más...</b></Link>
+                            <Link to="/ConocenosPage" className="inline-block rounded text-2xl hover:text-blue-400 transition-colors duration-300"><b>Ver más...</b></Link>
                             <span className="inline-block w-3 h-1 ml-1 rounded-full bg-Multitel"></span>
                             <span className="inline-block w-1 h-1 ml-1 rounded-full bg-Multitel"></span>
                         </motion.div>

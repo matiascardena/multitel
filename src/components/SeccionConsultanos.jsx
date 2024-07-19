@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import swal from 'sweetalert';
+import emailjs from 'emailjs-com';
 //Iconos
 
 const SeccionConsultanos = () => {
@@ -9,10 +10,7 @@ const SeccionConsultanos = () => {
 	const [email, setEmail] = useState('');
 	const [codigoArea, setCodigoArea] = useState('');
 	const [telefono, setTelefono] = useState('');
-	const [mensaje, setMensaje] = useState(
-		'Estoy interesado en la propuesta',
-	);
-
+	const [mensaje, setMensaje] = useState('Necesito ser contactado por un asesor');
 	const [nombreObligatorioError, setNombreObligatorioError] = useState('');
 	const [apellidoObligatorioError, setApellidoObligatorioError] = useState('');
 	const [codigoAreaError, setCodigoAreaError] = useState('');
@@ -20,9 +18,7 @@ const SeccionConsultanos = () => {
 	const [setTelefonoObligatorioError] = useState('');
 	const [inputValue, setInputValue] = useState('');
 	const [emailError, setEmailError] = useState('');
-
 	const preFijoTelefono = '549';
-	// Fin declaracion de constantes
 	
 	const resetFormulario = () => {
 		setNombre('');
@@ -147,12 +143,22 @@ const SeccionConsultanos = () => {
 			email,
 			mensaje,
 		};
+		emailjs.send('service_effatji', 'template_gmqepap', {
+			nombre: nombre,
+			apellido: apellido,
+			codigo_area: codigoArea,
+			telefono: _telefono,
+			email: email,
+			mensaje: mensaje}, 'eRo0pkOX93XL1Br5x').then(() => {
+				swal('Consulta enviada con exito', 'Un asesor lo contactará', 'success');
+			}, (error) => {
+			console.log('Error al enviar el mensaje, intenta nuevamente', error.text);});
 		return formularioCompleto;
 	};
 
 	return (
-		<section className="h-full w-full lg:h-screen">
-			<div className="container px-4 py-4 lg:py-16 mx-auto">
+		<section className="h-full w-full lg:h-screen xl:h-screen lg:py-16 xl:py-16">
+			<div className="container px-4 py-4 mx-auto">
 				<div className="flex flex-col gap-4 lg:flex-row xl:flex-row">
 					<div
 						className='border-2 border-grey-900 rounded-lg overflow-hidden xs:flex-wrap sm:mr-10 sm:flex-wrap md:flex-wrap lg:flex-wrap lg:w-1/2 flex items-end justify-center relative w-full'>

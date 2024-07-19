@@ -14,7 +14,7 @@ const SeccionHero = () => {
               hidden: { opacity: 0, y: 50 },
               visible: { opacity: 1, y: 0 }
             }}
-            className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 justify-center w-full">Distribuidor oficial CRONOS</motion.h1>
+            className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 justify-center w-full">Distribuidor oficial <strong>CRONOS</strong></motion.h1>
           <motion.p
              initial="hidden"
              whileInView="visible"
@@ -24,7 +24,7 @@ const SeccionHero = () => {
                hidden: { opacity: 0, y: 50 },
                visible: { opacity: 1, y: 0 }
              }}
-          className="mb-8 leading-relaxed">MULTITEL es una empresa joven que nació como resultado de un profundo análisis del mercado de las Comunicaciones, Control de Personal y Seguridad Industrial, donde se visualizaron necesidades reales de soluciones y herramientas de alta tecnología para satisfacer este mercado.</motion.p>
+          className="mb-8 leading-relaxed"><strong className="text-black">Multi</strong><strong className="text-Multitel">Tel</strong> es una empresa consolidada que nació como resultado de un profundo análisis del mercado de las Comunicaciones, Control de Personal y Seguridad Industrial, donde se visualizaron necesidades reales de soluciones y herramientas de alta tecnología para satisfacer este mercado.</motion.p>
           <motion.div
              initial="hidden"
              whileInView="visible"
@@ -35,7 +35,7 @@ const SeccionHero = () => {
                visible: { opacity: 1, x: 0 }
              }}
           className="flex items-center justify-center w-full">
-            <a href="/#Consultanos" className="text-white bg-Multitel border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">Consultanos</a>
+            <a href="/#SeccionConsultanos" className="text-white bg-Multitel border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">Consultanos</a>
           </motion.div>
         </div>
         <motion.div

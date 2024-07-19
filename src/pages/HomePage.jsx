@@ -13,21 +13,21 @@ const HomePages = () => {
 
 	return (
 		<>
-			<div id="Home" className="lg:h-screen w-full h-full overflow-hidden relative">
+			<div id="Home" className="lg:h-screen xl:h-screen w-full h-full overflow-hidden relative">
 				<Header />
 				<Hero />
 				<small className="absolute w-20 h-20 bg-black rounded-full -bottom-10 -right-10"></small>
 			</div>
 
-			<div id="Conocenos" className="lg:h-screen w-full h-full overflow-hidden relative bg-gray-200">
+			<div id="SeccionConocenos" className="lg:h-screen xl:h-screen w-full h-full overflow-hidden relative bg-gray-200">
 				<SeccionConocenos />
 			</div>
 
-			<div id="Productos" className="w-full">
-				<SeccionProductos />
+			<div id="SeccionProductos" className="lg:h-screen xl:h-screen w-full h-full">
+				<SeccionProductos productos={3}/>
 			</div>
 
-			<div id="Obras" className="lg:h-screen w-full h-full overflow-hidden relative"
+			<div id="SeccionObras" className="lg:h-screen xl:h-screen w-full h-full overflow-hidden relative"
 				style={{
 					backgroundImage: 'url(./../imagenes/Obras/SeccionObras.webp)',
 					backgroundSize: 'cover',
@@ -35,7 +35,7 @@ const HomePages = () => {
 				}}>
 				<SeccionObras />
 			</div>
-			<div id="Consultanos" className="h-1/2 md:h-screen w-full">
+			<div id="SeccionConsultanos" className="h-1/2 lg:h-screen xl:h-screen md:h-screen w-full">
 				<SeccionConsultanos />
 			</div>
 			<div className="h-1 bg-gray-200 rounded overflow-hidden md:mt-2">

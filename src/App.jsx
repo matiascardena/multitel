@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Routes, Route } from "react-router-dom";
+import { Route, Switch, HashRouter } from "react-router-dom";
 
 //Componentes propios
 import HomePages from "./pages/HomePage";
@@ -13,6 +13,14 @@ function App() {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
+    const resetScrollPosition = () => {
+      window.scrollTo(0, 0);
+    };
+    // Restablecer la posición del scroll cuando se carga una nueva página
+    resetScrollPosition();
+  }, []);
+
+  useEffect(() => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
@@ -23,12 +31,15 @@ function App() {
     return <Loading />;
   } else {
     return (
-      <Routes>
-        <Route path="/" element={<HomePages />} />
-        <Route path="/ConocenosPage" element={<ConocenosPage />} />
-        <Route path="/ProductosPage" element={<ProductosPage />} />
-        <Route path="/ObrasPage" element={<ObrasPage />} />
-      </Routes>
+      <HashRouter>
+        <Switch>
+          <Route exact path="/" component={HomePages} />
+          <Route path="/ConocenosPage" component={ConocenosPage} />
+          <Route path="/ProductosPage" component={ProductosPage} />
+          <Route path="/ObrasPage" component={ObrasPage} />
+          <Route path="*" component={HomePages} />
+        </Switch>
+      </HashRouter>
     );
   }
 }

@@ -6,4 +6,11 @@ export default defineConfig({
 	plugins: [react()],
 	base: './',
 	assetsInclude: ['**/*.docx'],
+	routes:[
+			{
+				"src":"/[^.]+",
+				"dest":"/"
+			}
+	]
+		
 });
