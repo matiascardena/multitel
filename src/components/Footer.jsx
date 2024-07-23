@@ -24,12 +24,6 @@ const Footer = () => {
             <span> Teléfono: +54 (0342) 456-0003</span>
           </div>
           <span className="inline-flex md:ml-auto md:mt-0 mt-2 justify-center md:justify-start">
-            {/* Facebook */}
-            <a className="text-white">
-              <svg fill="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
-                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-              </svg>
-            </a>
             {/* Instagram */}
             <a className="ml-3 text-white">
               <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">

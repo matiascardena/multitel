@@ -1,6 +1,6 @@
 
 export const ConocenosPage = () => {
   return (
-    <div>ConocenosPage</div>
+    <div>ConocenosPage desarrollo en dev</div>
   )
 }
