@@ -80,33 +80,6 @@ const SeccionProductos = ({ productos }) => {
             </div>
           )}
         </div>
-        {/* <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
-
-         {data.slice(0, MAXProductos).map((item, index) => (
-           <motion.div
-           initial="hidden"
-           whileInView="visible"
-           viewport={{ once: true, amount: 0.5 }}
-           transition={{ delay: 0.4, duration: 0.7 }}
-           variants={{
-             hidden: { opacity: 0, x: -50 },
-             visible: { opacity: 1, x: 0 }
-           }}
-           key={index} className="w-full lg:w-1/3 xl:w-1/3">
-             <Cards
-               key={index}
-               item={item}
-             />
-           </motion.div>
-         ))}
-         {data.length > MAXProductos && (
-           <div className="w-full flex justify-content-center ">
-             <Link to="/#" onClick={toggleShowAll} className="bg-Multitel text-white py-2 px-4 rounded">
-               {showAll ? 'Continuar recorriendo...' : 'Mostrar más productos'}
-             </Link>
-           </div>
-         )}
-       </div> */}
       </div>
     </section>
   );
