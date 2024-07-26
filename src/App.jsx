@@ -7,10 +7,13 @@ import Loading from "./components/Loading";
 import { ConocenosPage } from "./pages/ConocenosPage";
 import { ObrasPage } from "./pages/ObrasPage";
 import ProductosPage from "./pages/ProductosPage";
+import WhatsAppButton from "./components/shared/whatsAppButton";
 
 function App() {
   //Seccion Contenido
   const [loading, setLoading] = useState(false);
+  const phoneNumber = '5493425505654';
+  const message = '*[Landing - Multitel]* Hola, me gustaría saber más sobre sus servicios. - Prueba de Sistemas';
 
   useEffect(() => {
     const resetScrollPosition = () => {
@@ -39,6 +42,7 @@ function App() {
           <Route path="/ObrasPage" component={ObrasPage} />
           <Route path="*" component={HomePages} />
         </Switch>
+        <WhatsAppButton phoneNumber={phoneNumber} message={message} />
       </HashRouter>
     );
   }
