@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { HashLink as Link } from 'react-router-hash-link';
+import PropTypes from "prop-types";
 
-const Navbar = () => {
+const HeaderDetalleProducto = ({item}) => {
   const [nav, setNav] = useState(false);
 
   const handleNav = () => {
@@ -13,24 +14,18 @@ const Navbar = () => {
   return (
     <div className="bg-white fixed left-0 top-0 w-full z-10 ease-in xs:h-12 md:h-24 lg:h-12 xl:h-12 mx-auto">
       <div className="max-w-[1240px] m-auto mb-4 mt-2 md:mb-0 flex flex-wrap items-center justify-center">
-      <a href="/#Home" className="hidden sm:flex text-Multitel ml-10 items-center">
+      <Link to="/ProductosPage" className="hidden sm:flex text-Multitel ml-10 items-center">
               {/* <img loading="lazy" className="w-10 h-10 items-right m-1" src="./Logo_Multitel.png" /> */}
               <span className="text-xl text-black"> <b>Multi</b> </span>
               <span className="text-xl text-Multitel"> <b>Tel</b> </span>
-            </a>
+            </Link>
       <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center mr-2">
         <ul className="hidden sm:flex">
           <li className="px-4 hover:text-blue-400 transition-colors duration-300 border-b-2 hover:border-blue-400 transition-colors duration-300">
-          <Link smooth to="/ProductosPage#seccionRelojes">Relojes</Link>
+          <Link smooth to={`/DetalleProductoPage/${item.id}/#seccionDetalles`}>Detalles</Link>
           </li>
           <li className="px-4 hover:text-blue-400 transition-colors duration-300 border-b-2 hover:border-blue-400 transition-colors duration-300">
-          <Link smooth to="/ProductosPage#seccionCentrales">Centrales</Link>
-          </li>
-          <li className="px-4 hover:text-blue-400 transition-colors duration-300 border-b-2 hover:border-blue-400 transition-colors duration-300">
-          <Link smooth to="/ProductosPage#seccionCarteles">Carteles</Link>
-          </li>
-          <li className="px-4 hover:text-blue-400 transition-colors duration-300 border-b-2 hover:border-blue-400 transition-colors duration-300">
-            <Link to="/">Volver</Link>
+          <Link smooth to="/#">Descargas</Link>
           </li>
         </ul>
       </nav>
@@ -54,24 +49,19 @@ const Navbar = () => {
             <li
               onClick={handleNav}
               className="flex p-4 justify-center">
-              <a href="/#Home" >
+              <Link to="/ProductosPage" >
                 <img loading="lazy" className="w-15 h-15" src="./Logo_Multitel.png" />
-              </a>
+              </Link>
             </li>
             <li
               onClick={handleNav}         
               className="p-4 text-2xl hover:text-blue-400 transition-colors duration-300 border-b-2 hover:border-blue-400 transition-colors duration-300">
-              <Link smooth to="/ProductosPage#seccionRelojes">Relojes</Link>
+              <Link smooth to={`/DetalleProductoPage/${item.id}/#seccionDetalles`}>Detalles</Link>
             </li>
             <li
               onClick={handleNav}
               className="p-4 text-2xl hover:text-blue-400 transition-colors duration-300 border-b-2 hover:border-blue-400 transition-colors duration-300">
-                <Link smooth to="/ProductosPage#seccionCentrales">Centrales</Link>
-            </li>
-            <li
-              onClick={handleNav}
-              className="p-4 text-2xl hover:text-blue-400 transition-colors duration-300 border-b-2 hover:border-blue-400 transition-colors duration-300">
-                <Link smooth to="/ProductosPage#seccionCarteles">Carteles</Link>
+                <Link smooth to="/#">Descargas</Link>
             </li>
           </ul>
         </div>
@@ -80,4 +70,14 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default HeaderDetalleProducto;
+
+HeaderDetalleProducto.propTypes = {
+  item: PropTypes.shape({
+      id:PropTypes.string.isRequired,
+      titulo: PropTypes.string.isRequired,
+      subTitulo: PropTypes.string.isRequired,
+      imagen: PropTypes.string.isRequired
+  }).isRequired
+};
+
