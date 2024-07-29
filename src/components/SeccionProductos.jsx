@@ -50,7 +50,7 @@ const SeccionProductos = ({ productos }) => {
                 hidden: { opacity: 0, y: 50 },
                 visible: { opacity: 1, y: 0 }
               }}
-              className="sm:w-2/5 text-gray-900 font-medium title-font text-3xl mb-1 sm:mb-0">Nuestros Productos</motion.h1>
+              className="sm:w-2/5 text-gray-900 font-medium title-font text-3xl mb-1 sm:mb-0">Nuestros productos</motion.h1>
             <motion.p
               initial="hidden"
               whileInView="visible"
