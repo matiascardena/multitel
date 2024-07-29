@@ -8,6 +8,7 @@ import { ConocenosPage } from "./pages/ConocenosPage";
 import { ObrasPage } from "./pages/ObrasPage";
 import ProductosPage from "./pages/ProductosPage";
 import WhatsAppButton from "./components/shared/whatsAppButton";
+import { DetalleProductoPage } from "./pages/DetalleProductoPage";
 
 function App() {
   //Seccion Contenido
@@ -39,6 +40,7 @@ function App() {
           <Route exact path="/" component={HomePages} />
           <Route path="/ConocenosPage" component={ConocenosPage} />
           <Route path="/ProductosPage" component={ProductosPage} />
+          <Route path="/DetalleProductoPage/:id" component={DetalleProductoPage} />
           <Route path="/ObrasPage" component={ObrasPage} />
           <Route path="*" component={HomePages} />
         </Switch>

@@ -22,7 +22,23 @@ body {
   src: url('/fonts/Klik-Light.otf') format('truetype');
 }
 
+/* -----------------------------------
+           Fondos especiales 
+ -----------------------------------*/
 
+/* styles.css */
+#SeccionServicios2 {
+  background: rgb(2, 0, 36);
+  background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 0.989233193277311) 70%, rgba(10, 197, 245, 1) 90%);
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.border-Multitel {
+  border-color:  #05c4fc;
+}
 /* -----------------------------------
            Colores 
  -----------------------------------*/

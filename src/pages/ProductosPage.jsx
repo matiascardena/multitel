@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { motion } from 'framer-motion';
 
-import HeaderBasico from "../components/shared/HeaderBasico";
+import HeaderProductosPage from "../components/shared/HeaderProductosPage";
 import { CardsProduct } from "../components/shared/CardsProduct";
 
 
@@ -82,11 +82,11 @@ const ProductosPage = () => {
   ]);
 
   return (
-    <> <HeaderBasico></HeaderBasico>
+    <> <HeaderProductosPage></HeaderProductosPage>
       <section className="text-gray-600 h-full bg-grey-100">
         <div className="container px-4 py-16 mx-auto ">
           <div className="flex flex-col">
-
+          <div className="w-40 h-full bg-blue-600"></div>
             <div className="flex flex-wrap sm:flex-row flex-col py-3 mb-1 bg-grey-100">
               <motion.h1
                 initial="hidden"
@@ -110,7 +110,6 @@ const ProductosPage = () => {
                 className="sm:w-3/5 leading-relaxed text-3xl text-gray-900 sm:pl-10 pl-0"><strong className="text-black">Nuestros </strong><strong className="text-Multitel">Productos</strong></motion.p>
             </div>
           </div>
-
           <div id="seccionRelojes" className="flex flex-col">
             <div className="h-1 bg-gray-200 rounded overflow-hidden  mt-5">
               <div className="w-40 h-full bg-blue-600"></div>
@@ -139,7 +138,6 @@ const ProductosPage = () => {
                 </div>
               ))}
           </div>
-
           <div id="seccionCentrales" className="flex flex-col mt-2">
             <div className="h-1 bg-gray-200 rounded overflow-hidden mt-5">
               <div className="w-40 h-full bg-yellow-600"></div>

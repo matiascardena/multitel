@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import { HashLink as Link } from 'react-router-hash-link';
 
-const Navbar = () => {
+const HeaderProductosPage = () => {
   const [nav, setNav] = useState(false);
 
   const handleNav = () => {
@@ -19,20 +20,14 @@ const Navbar = () => {
             </a>
       <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center mr-2">
         <ul className="hidden sm:flex">
-        <li className="px-4 hover:text-blue-400 transition-colors duration-300 border-b-2 hover:border-blue-400 transition-colors duration-300">
-            <a href="/#SeccionServicios">Servicios</a>
-          </li>         
           <li className="px-4 hover:text-blue-400 transition-colors duration-300 border-b-2 hover:border-blue-400 transition-colors duration-300">
-            <a href="/#SeccionProductos">Productos</a>
+          <Link smooth to="/ProductosPage#seccionRelojes">Relojes</Link>
           </li>
           <li className="px-4 hover:text-blue-400 transition-colors duration-300 border-b-2 hover:border-blue-400 transition-colors duration-300">
-            <a href="/#SeccionObras">Nuestras Obras</a>
+          <Link smooth to="/ProductosPage#seccionCentrales">Centrales</Link>
           </li>
           <li className="px-4 hover:text-blue-400 transition-colors duration-300 border-b-2 hover:border-blue-400 transition-colors duration-300">
-            <a href="/#SeccionConocenos">Conocenos</a>
-          </li>
-          <li className="px-4 hover:text-blue-400 transition-colors duration-300 border-b-2 hover:border-blue-400 transition-colors duration-300">
-            <a href="/#SeccionConsultanos">Consultanos</a>
+          <Link smooth to="/ProductosPage#seccionCarteles">Carteles</Link>
           </li>
         </ul>
       </nav>
@@ -61,30 +56,19 @@ const Navbar = () => {
               </a>
             </li>
             <li
-              onClick={handleNav}
-              className="p-4 text-2xl hover:text-blue-400 transition-colors duration-300 border-b-2 hover:border-blue-400 transition-colors duration-300">
-              <a href="/#SeccionServicios">Servicios</a>
-            </li>
-
-            <li
-              onClick={handleNav}
-              className="p-4 text-2xl hover:text-blue-400 transition-colors duration-300 border-b-2 hover:border-blue-400 transition-colors duration-300">
-              <a href="/#SeccionProductos">Productos</a>
-            </li>
-            <li
-              onClick={handleNav}
-              className="p-4 text-2xl hover:text-blue-400 transition-colors duration-300 border-b-2 hover:border-blue-400 transition-colors duration-300">
-              <a href="/#SeccionObras">Nuestas Obras</a>
-            </li>
-            <li
               onClick={handleNav}         
               className="p-4 text-2xl hover:text-blue-400 transition-colors duration-300 border-b-2 hover:border-blue-400 transition-colors duration-300">
-              <a href="/#SeccionConocenos">Conocenos</a>
+              <Link smooth to="/ProductosPage#seccionRelojes">Relojes</Link>
             </li>
             <li
               onClick={handleNav}
               className="p-4 text-2xl hover:text-blue-400 transition-colors duration-300 border-b-2 hover:border-blue-400 transition-colors duration-300">
-              <a href="/#SeccionConsultanos">Consultanos</a>
+                <Link smooth to="/ProductosPage#seccionCentrales">Centrales</Link>
+            </li>
+            <li
+              onClick={handleNav}
+              className="p-4 text-2xl hover:text-blue-400 transition-colors duration-300 border-b-2 hover:border-blue-400 transition-colors duration-300">
+                <Link smooth to="/ProductosPage#seccionCarteles">Carteles</Link>
             </li>
           </ul>
         </div>
@@ -93,4 +77,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default HeaderProductosPage;
