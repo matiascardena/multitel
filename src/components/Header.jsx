@@ -19,14 +19,17 @@ const Navbar = () => {
             </a>
       <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center mr-2">
         <ul className="hidden sm:flex">
-          <li className="px-4 hover:text-blue-400 transition-colors duration-300 border-b-2 hover:border-blue-400 transition-colors duration-300">
-            <a href="/#SeccionConocenos">Conocenos</a>
-          </li>
+        <li className="px-4 hover:text-blue-400 transition-colors duration-300 border-b-2 hover:border-blue-400 transition-colors duration-300">
+            <a href="/#SeccionServicios">Servicios</a>
+          </li>         
           <li className="px-4 hover:text-blue-400 transition-colors duration-300 border-b-2 hover:border-blue-400 transition-colors duration-300">
             <a href="/#SeccionProductos">Productos</a>
           </li>
           <li className="px-4 hover:text-blue-400 transition-colors duration-300 border-b-2 hover:border-blue-400 transition-colors duration-300">
             <a href="/#SeccionObras">Nuestras Obras</a>
+          </li>
+          <li className="px-4 hover:text-blue-400 transition-colors duration-300 border-b-2 hover:border-blue-400 transition-colors duration-300">
+            <a href="/#SeccionConocenos">Conocenos</a>
           </li>
           <li className="px-4 hover:text-blue-400 transition-colors duration-300 border-b-2 hover:border-blue-400 transition-colors duration-300">
             <a href="/#SeccionConsultanos">Consultanos</a>
@@ -58,10 +61,11 @@ const Navbar = () => {
               </a>
             </li>
             <li
-              onClick={handleNav}         
+              onClick={handleNav}
               className="p-4 text-2xl hover:text-blue-400 transition-colors duration-300 border-b-2 hover:border-blue-400 transition-colors duration-300">
-              <a href="/#SeccionConocenos">Conocenos</a>
+              <a href="/#SeccionServicios">Servicios</a>
             </li>
+
             <li
               onClick={handleNav}
               className="p-4 text-2xl hover:text-blue-400 transition-colors duration-300 border-b-2 hover:border-blue-400 transition-colors duration-300">
@@ -71,6 +75,11 @@ const Navbar = () => {
               onClick={handleNav}
               className="p-4 text-2xl hover:text-blue-400 transition-colors duration-300 border-b-2 hover:border-blue-400 transition-colors duration-300">
               <a href="/#SeccionObras">Nuestas Obras</a>
+            </li>
+            <li
+              onClick={handleNav}         
+              className="p-4 text-2xl hover:text-blue-400 transition-colors duration-300 border-b-2 hover:border-blue-400 transition-colors duration-300">
+              <a href="/#SeccionConocenos">Conocenos</a>
             </li>
             <li
               onClick={handleNav}

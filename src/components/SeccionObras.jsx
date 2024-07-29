@@ -3,7 +3,7 @@ import {motion } from 'framer-motion';
 
 const SeccionObras = () => {
   return (
-    <section className="bg-black bg-opacity-50 lg:h-screen h-full w-full lg:flex lg:items-center lg:justify-center">
+    <section className="bg-black bg-opacity-50 lg:h-screen xl:h-screen  h-full w-full lg:flex lg:items-center lg:justify-center">
       <div className="container px-6 py-10 mx-auto">
         <div className="lg:w-2/3 flex flex-col sm:flex-row sm:items-center items-start mx-auto">
           <motion.h1
