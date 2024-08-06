@@ -4,9 +4,9 @@ import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/navigation";
 
-import img1 from "/imagenes/Productos/Relojes.jpg";
-import img2 from "/imagenes/Productos/Relojes_Ejemplo.webp";
-import img3 from "/imagenes/Productos/Centrales.png";
+import img1 from "/imagenes/Productos/Destacados/Relojes.jpg";
+import img2 from "/imagenes/Productos/Destacados/Relojes_Ejemplo.webp";
+import img3 from "/imagenes/Productos/Destacados/Centrales.png";
 
 function SeccionNovedades() {
   const images = [img1, img2, img3];

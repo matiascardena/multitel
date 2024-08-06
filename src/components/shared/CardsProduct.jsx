@@ -7,7 +7,7 @@ export const CardsProduct = ({ item }) => {
         <div className="p-2 sm:mb-0 mb-2 bg-blue-200 rounded-lg justify-center items-center">
              <Link to={{ pathname: `/DetalleProductoPage/${item.id}`,state: {item} }}>
             <div className="rounded-lg h-60 overflow-hidden">
-                <img alt="content" className="object-cover object-center h-full w-full " src={`${item.imagen}`} />
+                <img alt="content" className="object-cover object-center h-full w-full " src={`${item.imagen_ppal}`} />
             </div>
             <div className="text-center">
                 <p className="text-xl text-gray-700 font-bold mb-2">{item.titulo}</p>
@@ -23,6 +23,6 @@ CardsProduct.propTypes = {
         id:PropTypes.string.isRequired,
         titulo: PropTypes.string.isRequired,
         subTitulo: PropTypes.string.isRequired,
-        imagen: PropTypes.string.isRequired
+        imagen_ppal: PropTypes.string.isRequired
     }).isRequired
 };

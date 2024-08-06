@@ -12,6 +12,7 @@ import { SeccionServicios } from '../components/SeccionServicios';
 
 const HomePages = () => {
 	let habilitarNovedades = false;
+	let habilitarObras = false;
 
 	return (
 		<>
@@ -36,16 +37,17 @@ const HomePages = () => {
 			<div id="SeccionProductos" className="lg:h-screen xl:h-screen w-full h-full">
 				<SeccionProductos productos={3} />
 			</div>
-
-			<div id="SeccionObras" className="lg:h-screen xl:h-screen w-full h-full overflow-hidden relative"
+			{habilitarObras && (
+				<div id="SeccionObras" className="lg:h-screen xl:h-screen w-full h-full overflow-hidden relative"
 				style={{
 					backgroundImage: 'url(./../imagenes/Obras/SeccionObras.webp)',
 					backgroundSize: 'cover',
 					backgroundPosition: 'center',
 				}}>
 				<SeccionObras />
-			</div>
-
+			</div> 
+			)
+			};
 			<div id="SeccionConocenos" className="lg:h-screen xl:h-screen w-full h-full overflow-hidden relative bg-gray-200">
 				<SeccionConocenos />
 			</div>
