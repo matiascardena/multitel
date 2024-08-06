@@ -25,7 +25,7 @@ const HeaderDetalleProducto = ({item}) => {
           <Link smooth to={`/DetalleProductoPage/${item.id}/#seccionDetalles`}>Detalles</Link>
           </li>
           <li className="px-4 hover:text-blue-400 transition-colors duration-300 border-b-2 hover:border-blue-400 transition-colors duration-300">
-          <Link smooth to="/#">Descargas</Link>
+          <Link smooth to={`/DetalleProductoPage/${item.id}/#seccionDescargas`}>Descargas</Link>
           </li>
         </ul>
       </nav>

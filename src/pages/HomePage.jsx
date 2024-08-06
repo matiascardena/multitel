@@ -2,7 +2,7 @@
 import Header from '../components/Header';
 import Hero from '../components/SeccionHero';
 import SeccionConocenos from '../components/SeccionConocenos';
-import SeccionObras from '../components/SeccionObras';
+// import SeccionObras from '../components/SeccionObras';
 import SeccionConsultanos from '../components/SeccionConsultanos';
 import Footer from '../components/Footer';
 import SeccionProductos from '../components/SeccionProductos';
@@ -37,14 +37,14 @@ const HomePages = () => {
 				<SeccionProductos productos={3} />
 			</div>
 
-			<div id="SeccionObras" className="lg:h-screen xl:h-screen w-full h-full overflow-hidden relative"
+			{/* <div id="SeccionObras" className="lg:h-screen xl:h-screen w-full h-full overflow-hidden relative"
 				style={{
 					backgroundImage: 'url(./../imagenes/Obras/SeccionObras.webp)',
 					backgroundSize: 'cover',
 					backgroundPosition: 'center',
 				}}>
 				<SeccionObras />
-			</div>
+			</div> */}
 
 			<div id="SeccionConocenos" className="lg:h-screen xl:h-screen w-full h-full overflow-hidden relative bg-gray-200">
 				<SeccionConocenos />
