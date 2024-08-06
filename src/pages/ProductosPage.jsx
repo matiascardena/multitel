@@ -1,8 +1,9 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { motion } from 'framer-motion';
 
 import HeaderProductosPage from "../components/shared/HeaderProductosPage";
 import { CardsProduct } from "../components/shared/CardsProduct";
+import productos from '../data/productos.json';
 
 
 const ProductosPage = () => {
@@ -15,71 +16,6 @@ const ProductosPage = () => {
   }, []);
 
   const MAXPropuestas = 99;
-  const [data] = useState([
-    {
-      id: '1',
-      titulo: 'RELOJES',
-      subTitulo: 'Sistemas de Control / Control de Asistencia - Acceso',
-      imagen: '/imagenes/Productos/Relojes_Ejemplo.webp',
-      categoria: 'RELOJES',
-    },
-    {
-      id: '2',
-      titulo: 'CENTRALES',
-      subTitulo: 'Centrales Telefónicas',
-      imagen: '/imagenes/Productos/Centrales_Ejemplo.jpg',
-      categoria: 'CENTRALES',
-    },
-    {
-      id: '3',
-      titulo: 'CARTELES',
-      subTitulo: 'Carteles Electrónicos / Combinados',
-      imagen: '/imagenes/Productos/Carteles_Ejemplo.webp',
-      categoria: 'CARTELES',
-    },
-    {
-      id: '4',
-      titulo: 'CARTELES',
-      subTitulo: 'Carteles Electrónicos / Combinados',
-      imagen: '/imagenes/Productos/Carteles_Ejemplo.webp',
-      categoria: 'CARTELES',
-    },
-    {
-      id: '5',
-      titulo: 'CARTELES',
-      subTitulo: 'Carteles Electrónicos / Combinados',
-      imagen: '/imagenes/Productos/Carteles_Ejemplo.webp',
-      categoria: 'CARTELES',
-    },
-    {
-      id: '6',
-      titulo: 'CARTELES',
-      subTitulo: 'Carteles Electrónicos / Combinados',
-      imagen: '/imagenes/Productos/Carteles_Ejemplo.webp',
-      categoria: 'CARTELES',
-    },
-    {
-      id: '7',
-      titulo: 'CARTELES',
-      subTitulo: 'Carteles Electrónicos / Combinados',
-      imagen: '/imagenes/Productos/Carteles_Ejemplo.webp',
-      categoria: 'CARTELES',
-    },
-    {
-      id: '8',
-      titulo: 'CARTELES',
-      subTitulo: 'Carteles Electrónicos / Combinados',
-      imagen: '/imagenes/Productos/Carteles_Ejemplo.webp',
-      categoria: 'CARTELES',
-    },
-    {
-      id: '9',
-      titulo: 'CARTELES',
-      subTitulo: 'Carteles Electrónicos / Combinados',
-      imagen: '/imagenes/Productos/Carteles_Ejemplo.webp',
-      categoria: 'CARTELES',
-    },
-  ]);
 
   return (
     <> <HeaderProductosPage></HeaderProductosPage>
@@ -129,7 +65,7 @@ const ProductosPage = () => {
           </div>
           <div className="w-40 h-full bg-Multitel"></div>
           <div  className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
-            {data
+            {productos
               .filter(item => item.categoria === 'RELOJES') // Filtra elementos donde la categoría es 'RELOJES'
               .slice(0, MAXPropuestas) // Toma solo los primeros MAXPropuestas elementos
               .map((item, index) => (
@@ -156,7 +92,7 @@ const ProductosPage = () => {
             </div>
           </div>
           <div  className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
-            {data
+            {productos
               .filter(item => item.categoria === 'CENTRALES') // Filtra elementos donde la categoría es 'RELOJES'
               .slice(0, MAXPropuestas) // Toma solo los primeros MAXPropuestas elementos
               .map((item, index) => (
@@ -184,7 +120,7 @@ const ProductosPage = () => {
             </div>
           </div>
           <div  className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
-            {data
+            {productos
               .filter(item => item.categoria === 'CARTELES') // Filtra elementos donde la categoría es 'RELOJES'
               .slice(0, MAXPropuestas) // Toma solo los primeros MAXPropuestas elementos
               .map((item, index) => (

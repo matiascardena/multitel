@@ -1,10 +1,11 @@
-import {useEffect, useState } from 'react';
+import {useEffect } from 'react';
 import { Cards } from './shared/Cards';
 import {motion }from 'framer-motion';
 import { Link } from 'react-router-dom';
 import PropTypes from "prop-types";
+import productos from '../data/productos_destacados.json';
 
-const SeccionProductos = ({ productos }) => {
+const SeccionProductos = ({ _productos }) => {
   useEffect(() => {
     const resetScrollPosition = () => {
       window.scrollTo(0, 0);
@@ -12,27 +13,8 @@ const SeccionProductos = ({ productos }) => {
     // Restablecer la posición del scroll cuando se carga una nueva página
     resetScrollPosition();
   }, []);
-  const MAXPropuestas = productos || 3;
-  const [data] = useState([
-    {
-      id: '1',
-      titulo: 'RELOJES',
-      subTitulo: 'Sistemas de Control / Control de Asistencia - Acceso',
-      imagen: '/imagenes/Productos/Relojes_Ejemplo.webp',
-    },
-    {
-      id: '2',
-      titulo: 'CENTRALES',
-      subTitulo: 'Centrales Telefónicas',
-      imagen: '/imagenes/Productos/Centrales_Ejemplo.jpg',
-    },
-    {
-      id: '3',
-      titulo: 'CARTELES',
-      subTitulo: 'Carteles Electrónicos / Combinados',
-      imagen: '/imagenes/Productos/Carteles_Ejemplo.webp',
-    },
-  ]);
+  const MAXPropuestas = _productos || 3;
+
   return (
     <section className="text-gray-600 h-full">
       <div className="container px-4 py-16 mx-auto">
@@ -64,15 +46,21 @@ const SeccionProductos = ({ productos }) => {
           </div>
         </div>
         <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
-          {data.slice(0, MAXPropuestas).map((item, index) => (
+          
+          {productos.slice(0, MAXPropuestas).map((item, index) => (
+           
             <div
               key={index} className="w-full lg:w-1/3 xl:w-1/3 mt-3">
+                 <Link to="/ProductosPage">
               <Cards
                 item={item}
               />
+                </Link>
             </div>
+          
           ))}
-          {data.length > MAXPropuestas && (
+      
+          {productos.length > MAXPropuestas && (
             <div className="w-full flex justify-content-center ">
               <Link to="/ProductosPage" className="bg-AceroCorp text-white py-2 px-4 rounded">
                 Ver más productos
@@ -88,5 +76,5 @@ const SeccionProductos = ({ productos }) => {
 export default SeccionProductos;
 
 SeccionProductos.propTypes = {
-  productos: PropTypes.number.isRequired,
+  _productos: PropTypes.number.isRequired,
 };
