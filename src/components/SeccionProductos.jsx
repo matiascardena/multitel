@@ -3,7 +3,7 @@ import { Cards } from './shared/Cards';
 import {motion }from 'framer-motion';
 import { Link } from 'react-router-dom';
 import PropTypes from "prop-types";
-import productos from '../data/productos_destacados.json';
+import productosDestacados from '../data/productos_destacados.json';
 
 const SeccionProductos = ({ _productos }) => {
   useEffect(() => {
@@ -47,7 +47,7 @@ const SeccionProductos = ({ _productos }) => {
         </div>
         <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
           
-          {productos.slice(0, MAXPropuestas).map((item, index) => (
+          {productosDestacados.slice(0, MAXPropuestas).map((item, index) => (
            
             <div
               key={index} className="w-full lg:w-1/3 xl:w-1/3 mt-3">
@@ -60,7 +60,7 @@ const SeccionProductos = ({ _productos }) => {
           
           ))}
       
-          {productos.length > MAXPropuestas && (
+          {productosDestacados.length > MAXPropuestas && (
             <div className="w-full flex justify-content-center ">
               <Link to="/ProductosPage" className="bg-AceroCorp text-white py-2 px-4 rounded">
                 Ver más productos

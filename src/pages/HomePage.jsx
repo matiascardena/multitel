@@ -16,7 +16,7 @@ const HomePages = () => {
 
 	return (
 		<>
-			<div id="Home" className="lg:h-screen xl:h-screen w-full h-full overflow-hidden relative">
+			<div id="Home" className="w-screen h-screen overflow-hidden relative">
 				<Header />
 				<Hero />
 				<small className="absolute w-20 h-20 bg-black rounded-full -bottom-10 -right-10"></small>
@@ -28,7 +28,7 @@ const HomePages = () => {
 					<SeccionNovedades />
 					<small className="absolute w-20 h-20 bg-black rounded-full -bottom-10 -right-10"></small>
 				</div>
-			)};
+			)}
 			
 			<div id="SeccionServicios" className="lg:h-screen xl:h-screen w-full h-full overflow-hidden relative">
 				<SeccionServicios />
@@ -47,7 +47,7 @@ const HomePages = () => {
 				<SeccionObras />
 			</div> 
 			)
-			};
+			}
 			<div id="SeccionConocenos" className="lg:h-screen xl:h-screen w-full h-full overflow-hidden relative bg-gray-200">
 				<SeccionConocenos />
 			</div>
