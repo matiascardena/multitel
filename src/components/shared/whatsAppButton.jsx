@@ -16,8 +16,8 @@ const WhatsAppButton = ({ phoneNumber, message }) => {
 
 const buttonStyle = {
   position: 'fixed',        // Posición fija
-  bottom: '60px',           // Espaciado desde la parte inferior
-  right: '60px',            // Espaciado desde la parte derecha
+  bottom: '25px',           // Espaciado desde la parte inferior
+  left: '20px',            // Espaciado desde la parte derecha
   backgroundColor: '#25D366',
   color: 'white',
   border: 'none',

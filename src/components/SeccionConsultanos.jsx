@@ -211,7 +211,7 @@ const SeccionConsultanos = () => {
 					</div>
 					{/* Formulario */}
 					<div className='border-2 border-grey-900 sm:mr-1 px-2 xs:flex-wrap sm:flex-wrap md:flex-wrap md:py-8 lg:flex-wrap xl:w-1/2 flex flex-col md:ml-auto rounded items-end justify-center relative h-full w-full bg-clip-padding backdrop-filter backdrop-blur bg-opacity-20 bg-gray-300 '>
-						<h2 className='title-font font-semibold text-Multitel text-md mb-3 w-full'>
+						<h2 className='title-font font-semibold text-Multitel text-md mb-3 sm:mt-1 w-full'>
 							CONSULTANOS
 						</h2>
 						<div className='relative mb-3 flex flex-wrap flex-grow w-full'>
@@ -332,7 +332,7 @@ const SeccionConsultanos = () => {
 						</div>
 						<button
 							onClick={() => hamdleSubmit()}
-							className='text-white bg-Multitel border-0 py-1 px-2 focus:outline-none hover:bg-blue-600 rounded text-lg'>
+							className='text-white bg-Multitel border-0 py-1 px-2 focus:outline-none hover:bg-blue-600 rounded text-lg sm:mb-1'>
 							Enviar consulta
 						</button>
 					</div>
