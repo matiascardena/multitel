@@ -4,9 +4,9 @@ import {motion} from 'framer-motion';
 const SeccionConocenos = () => {
     return (
         <section className="md:h-full lg:h-screen xl:h-screen w-full overflow-hidden">
-            <div className="container px-6 py-10 mx-auto">
+            <div className="container px-6 py-10 sm:py-24 mx-auto">
                 <div className="lg:flex lg:items-center">
-                    <div className="w-full space-y-12 lg:w-1/2">
+                    <div className="w-full h-full space-y-12 lg:w-1/2">
                         {/* Titulo */}
                         <div>
                             <motion.h1  
