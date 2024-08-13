@@ -18,7 +18,7 @@
     "imagen_ppal": "/imagenes/Productos/RelojesImagenes/HF19N.webp",
     "categoria": "RELOJES",
     "info": "El HF19N es un Registrador de asistencia Biométrico facial, de huellas, tarjeta y password. Esta especialmente recomendado para su uso como control de asistencia en establecimientos de todo tipo ya que por sus múltiples formas de reconocimiento se puede utilizar tanto en curtiembres como en oficinas comerciales. Su salida de relay le permite ser utilizado para abrir la puerta de entrada al establecimiento utilizando cerradura electromagnética o destraba pestillo eléctrico",
-    "filePath": "FOLLETOS RELOJES/HF19N.pdf",
+    "filePath": "FOLLETOS RELOJES/Folleto_HF19N.pdf",
     "fileName": "Folleto-HF19N - Multitel"
   },
   {
@@ -29,7 +29,7 @@
     "imagen_ppal": "/imagenes/Productos/RelojesImagenes/HH59G_frente.webp",
     "categoria": "RELOJES",
     "info": "El HH59G es un moderno registrador biométrico de control horario de huella , tarjeta y password sumamente efectivo debido a su algoritmo BIO TH2.0. Su modo de verificación puede ser huella + Password. Ideal para establecimientos donde se requiere una ágil lectura de la huella para control de asistencia. Su pantalla color visualiza la hora en forma visible y clara. Adicionalmente se le puede agregar una impresora para la emisión de ticket",
-    "filePath": "FOLLETOS RELOJES/HH59G.pdf",
+    "filePath": "FOLLETOS RELOJES/Folleto_HH59G.pdf",
      "fileName": "Folleto-HH59G - Multitel"
   },
   {
@@ -40,7 +40,7 @@
     "imagen_ppal": "/imagenes/Productos/RelojesImagenes/K20_.webp",
     "categoria": "RELOJES",
     "info": "El K20 es una innovadora solución para control de personal y accesos. Con una velocidad de verificación menor a dos segundos permite registrar los accesos mediante tres opciones: tarjeta, huella digital y contraseña de manera independiente o combinada. Posee batería de reserva de marcha, un diferencial importantísimo dentro de su segmento de precio. Cuenta con una pantalla color TFT de 2,8”, comunicación a través del puerto TCP/IP, tiene un relay que se puede utilizar como salida de abrepuertas o para accionar un toque de timbre con horarios programables",
-    "filePath": "FOLLETOS RELOJES/K20.pdf",
+    "filePath": "FOLLETOS RELOJES/Folleto_K20.pdf",
      "fileName": "Folleto-K20 - Multitel"
   },
   {
@@ -51,7 +51,7 @@
     "imagen_ppal": "/imagenes/Productos/RelojesImagenes/MB360-min.webp",
     "categoria": "RELOJES",
     "info": "La unidad MB360 ha sido diseñada con tecnología biométrica de reconocimiento de huellas, facial y/o tarjeta de proximidad para control horario. Es un dispositivo versátil, veloz que permite combinar ambas tecnologías de reconocimiento, pudiendo reconocer hasta 1.500 rostros, 2.000 huellas, 2.000 tarjetas y 100.000 transacciones",
-    "filePath": "FOLLETOS RELOJES/MB360.pdf",
+    "filePath": "FOLLETOS RELOJES/Folleto_MB360.pdf",
      "fileName": "Folleto-MB360 - Multitel"
   },
   {
@@ -62,7 +62,7 @@
     "imagen_ppal": "/imagenes/Productos/RelojesImagenes/VLF5I_.webp",
     "categoria": "RELOJES",
     "info": "La unidad VLF5I ha sido diseñada con tecnología biométrica de reconocimiento facial dinámico, con la posibilidad de utilizar además password de acceso. Es un dispositivo innovador, veloz que acepta hasta 5.000 rostros permitiendo el reconocimiento de varias personas dentro del rango de los 2,5 mts. Con un máximo de 5 usuarios al mismo tiempo. Tiene una velocidad de reconocimiento facial menor a 0.02 Seg y tiene una modalidad para reconocer a un individuo con el barbijo puesto.",
-    "filePath": "FOLLETOS RELOJES/VLF5I.pdf",
+    "filePath": "FOLLETOS RELOJES/Folleto_VLF5I.pdf",
     "fileName": "Folleto-VLF5I - Multitel"
   },
   {
