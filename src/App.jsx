@@ -14,7 +14,7 @@ function App() {
   //Seccion Contenido
   const [loading, setLoading] = useState(false);
   const phoneNumber = '5493425505654';
-  const message = '*[Landing - Multitel]* Hola, me gustaría saber más sobre sus servicios. - Prueba de Sistemas';
+  const message = 'Hola, me gustaría saber más sobre sus servicios...';
 
   useEffect(() => {
     const resetScrollPosition = () => {
