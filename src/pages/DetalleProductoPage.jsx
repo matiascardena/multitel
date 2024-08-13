@@ -18,8 +18,6 @@ export const DetalleProductoPage = () => {
 
 
 	const { id } = useParams();
-
-
 	const item = productos.find((item) => item.id === id);
 
 	return (

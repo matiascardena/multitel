@@ -16,6 +16,8 @@ const DownloadButton = ({ fileName = 'Folleto', filePath }) => {
       
       const link = document.createElement('a');// Crear un enlace para descargar el archivo
       link.href = filePath;
+      console.log("filePath",filePath);
+      console.log("fileName",fileName);
       link.download = fileName;
       document.body.appendChild(link);
       link.click();
