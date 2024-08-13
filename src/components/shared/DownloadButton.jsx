@@ -21,13 +21,6 @@ const DownloadButton = ({ fileName = 'Folleto', filePath }) => {
       link.click();
       document.body.removeChild(link);
 
-      // Mostrar alerta de descarga exitosa
-      // swal({
-      //   title: "¡Descarga exitosa!",
-      //   text: `El archivo ha sido descargado correctamente.`,
-      //   icon: "success",
-      //   button: "Cerrar",
-      // });
     } catch (error) {
 
       swal({
