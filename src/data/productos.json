@@ -8,7 +8,7 @@
     "categoria": "RELOJES",
     "info": "El F22 es un lector de huella y tarjeta de proximidad ultra delgado que puede ser usado como control de horario y accesos con sensor BioID con alta definición de imagen y sensor de detección infrarrojo. Tiene un avanzado algoritmo de alta confiabilidad, precisión y excelente velocidad de reconocimiento",
     "filePath": "FOLLETOS RELOJES/F22.pdf",
-    "fileName": "Folleto - F22 - Multitel"
+    "fileName": "Folleto-F22-Multitel"
   },
   {
     "id": "2",
@@ -19,7 +19,7 @@
     "categoria": "RELOJES",
     "info": "El HF19N es un Registrador de asistencia Biométrico facial, de huellas, tarjeta y password. Esta especialmente recomendado para su uso como control de asistencia en establecimientos de todo tipo ya que por sus múltiples formas de reconocimiento se puede utilizar tanto en curtiembres como en oficinas comerciales. Su salida de relay le permite ser utilizado para abrir la puerta de entrada al establecimiento utilizando cerradura electromagnética o destraba pestillo eléctrico",
     "filePath": "FOLLETOS RELOJES/HF19N.pdf",
-    "fileName": "Folleto - HF19N - Multitel"
+    "fileName": "Folleto-HF19N - Multitel"
   },
   {
     "id": "3",
@@ -30,7 +30,7 @@
     "categoria": "RELOJES",
     "info": "El HH59G es un moderno registrador biométrico de control horario de huella , tarjeta y password sumamente efectivo debido a su algoritmo BIO TH2.0. Su modo de verificación puede ser huella + Password. Ideal para establecimientos donde se requiere una ágil lectura de la huella para control de asistencia. Su pantalla color visualiza la hora en forma visible y clara. Adicionalmente se le puede agregar una impresora para la emisión de ticket",
     "filePath": "FOLLETOS RELOJES/HH59G.pdf",
-     "fileName": "Folleto - HH59G - Multitel"
+     "fileName": "Folleto-HH59G - Multitel"
   },
   {
     "id": "4",
@@ -41,7 +41,7 @@
     "categoria": "RELOJES",
     "info": "El K20 es una innovadora solución para control de personal y accesos. Con una velocidad de verificación menor a dos segundos permite registrar los accesos mediante tres opciones: tarjeta, huella digital y contraseña de manera independiente o combinada. Posee batería de reserva de marcha, un diferencial importantísimo dentro de su segmento de precio. Cuenta con una pantalla color TFT de 2,8”, comunicación a través del puerto TCP/IP, tiene un relay que se puede utilizar como salida de abrepuertas o para accionar un toque de timbre con horarios programables",
     "filePath": "FOLLETOS RELOJES/K20.pdf",
-     "fileName": "Folleto - K20 - Multitel"
+     "fileName": "Folleto-K20 - Multitel"
   },
   {
     "id": "5",
@@ -52,7 +52,7 @@
     "categoria": "RELOJES",
     "info": "La unidad MB360 ha sido diseñada con tecnología biométrica de reconocimiento de huellas, facial y/o tarjeta de proximidad para control horario. Es un dispositivo versátil, veloz que permite combinar ambas tecnologías de reconocimiento, pudiendo reconocer hasta 1.500 rostros, 2.000 huellas, 2.000 tarjetas y 100.000 transacciones",
     "filePath": "FOLLETOS RELOJES/MB360.pdf",
-     "fileName": "Folleto - MB360 - Multitel"
+     "fileName": "Folleto-MB360 - Multitel"
   },
   {
     "id": "6",
@@ -63,7 +63,7 @@
     "categoria": "RELOJES",
     "info": "La unidad VLF5I ha sido diseñada con tecnología biométrica de reconocimiento facial dinámico, con la posibilidad de utilizar además password de acceso. Es un dispositivo innovador, veloz que acepta hasta 5.000 rostros permitiendo el reconocimiento de varias personas dentro del rango de los 2,5 mts. Con un máximo de 5 usuarios al mismo tiempo. Tiene una velocidad de reconocimiento facial menor a 0.02 Seg y tiene una modalidad para reconocer a un individuo con el barbijo puesto.",
     "filePath": "FOLLETOS RELOJES/VLF5I.pdf",
-    "fileName": "Folleto - VLF5I - Multitel"
+    "fileName": "Folleto-VLF5I - Multitel"
   },
   {
     "id": "7",
@@ -74,7 +74,7 @@
     "categoria": "CAMARAS",
     "info": "Sin información cargada",
     "filePath": "",
-    "fileName": "Folleto - DOMO1 - Multitel"
+    "fileName": "Folleto-DOMO1 - Multitel"
   },
   {
     "id": "8",
@@ -85,7 +85,7 @@
     "categoria": "CAMARAS",
     "info": "Sin información cargada",
     "filePath": "",
-    "fileName": "Folleto - DOMO2 - Multitel"
+    "fileName": "Folleto-DOMO2 - Multitel"
   },
   {
     "id": "9",
@@ -96,17 +96,17 @@
     "categoria": "CAMARAS",
     "info": "Sin información cargada",
     "filePath": "",
-    "fileName": "Folleto - Bullet - Multitel"
+    "fileName": "Folleto-Bullet - Multitel"
   },
   {
     "id": "10",
     "titulo": "DVR ",
     "subTitulo": "Camarás para monitoreo y control",
     "destacar": "HIK VISION",
-    "imagen_ppal": "/imagenes/Productos/CamarasImagenes/dvr.jpg",
+    "imagen_ppal": "/imagenes/Productos/CamarasImagenes/dvr.webp",
     "categoria": "CAMARAS",
     "info": "Sin información cargada",
     "filePath": "",
-    "fileName": "Folleto - DVR - Multitel"
+    "fileName": "Folleto-DVR - Multitel"
   }
 ]

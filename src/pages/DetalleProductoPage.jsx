@@ -46,7 +46,7 @@ export const DetalleProductoPage = () => {
 										visible: { opacity: 1, x: 0 },
 									}}
 									className='text-gray-900 text-3xl title-font font-medium mb-1 mt-2'>
-									{item.titulo}
+									{item.fileName}
 								</motion.h1>
 								<div className='flex mb-4'>
 									<span className='flex items-center'>
