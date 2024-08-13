@@ -4,10 +4,11 @@
       "titulo": "RELOJES",
       "subTitulo": "Sistemas de Control / Control de Asistencia - Acceso",
       "destacar": "Garantía por 2 años",
-      "imagen_ppal": "/imagenes/Productos/RelojesImagenes/HH59G_frente.png",
+      "imagen_ppal": "/imagenes/Productos/RelojesImagenes/HH59G_frente.webp",
       "categoria": "RELOJES",
       "info": "La unidad MB360 ha sido diseñada con tecnología biométrica de reconocimiento de huellas, facial y/o tarjeta de proximidad para control Horario. Es un dispositivo versátil, veloz que permite combinar ambas tecnologías de reconocimiento, pudiendo reconocer hasta 1.500 rostros, 2.000 huellas, 2.000 tarjetas y 100.000 transacciones. La interfaz de uso del MB360 es sumamente amigable y fácil de utilizar, vinculándose con el usuario a través de una pantalla TFT color de 2.8”. Su comunicación es a través de TCP/IP y USB.",
-      "pdfFolleto": "FOLLETOS RELOJES/F22.pdf"
+      "filePath": "",
+      "fileName": "Folleto - HH59 - Multitel"
     },
     {
       "id": "2",
@@ -17,14 +18,15 @@
       "imagen_ppal": "/imagenes/Productos/Destacados/Centrales_Ejemplo.jpg",
       "categoria": "CENTRALES",
       "info": "La unidad MB360 ha sido diseñada con tecnología biométrica de reconocimiento de huellas, facial y/o tarjeta de proximidad para control Horario. Es un dispositivo versátil, veloz que permite combinar ambas tecnologías de reconocimiento, pudiendo reconocer hasta 1.500 rostros, 2.000 huellas, 2.000 tarjetas y 100.000 transacciones. La interfaz de uso del MB360 es sumamente amigable y fácil de utilizar, vinculándose con el usuario a través de una pantalla TFT color de 2.8”. Su comunicación es a través de TCP/IP y USB.",
-      "pdfFolleto": "FOLLETOS RELOJES/HF19N.pdf"
+      "filePath": "",
+      "fileName": "Folleto -  - Multitel"
     },
     {
       "id": "3",
       "titulo": "CAMARAS",
       "subTitulo": "Unidad biométrica de huella para control de accesos y presentismo",
       "destacar": "CRONOS",
-      "imagen_ppal": "/imagenes/Productos/CamarasImagenes/domo1.png",
+      "imagen_ppal": "/imagenes/Productos/CamarasImagenes/domo1.webp",
       "categoria": "CAMARAS",
       "info": "Sin información cargada",
       "filePath": "",
