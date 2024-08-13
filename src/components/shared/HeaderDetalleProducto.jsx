@@ -61,7 +61,7 @@ const HeaderDetalleProducto = ({item}) => {
             <li
               onClick={handleNav}
               className="p-4 text-2xl hover:text-blue-400 transition-colors duration-300 border-b-2 hover:border-blue-400 transition-colors duration-300">
-                <Link smooth to="/#">Descargas</Link>
+                <Link smooth to="/DetalleProductoPage/${item.id}/#seccionDescargas">Descargas</Link>
             </li>
           </ul>
         </div>

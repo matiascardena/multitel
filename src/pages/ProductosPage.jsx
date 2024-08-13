@@ -66,7 +66,7 @@ const ProductosPage = () => {
           <div className="w-40 h-full bg-Multitel"></div>
           <div  className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
             {productos
-              .filter(item => item.categoria === 'RELOJES') // Filtra elementos donde la categoría es 'RELOJES'
+              .filter(item => item.categoria === 'RELOJES')
               .slice(0, MAXPropuestas) // Toma solo los primeros MAXPropuestas elementos
               .map((item, index) => (
                 <div key={index} className="w-full md:w-1/2 lg:w-1/4 xl:w-1/4 p-2">
