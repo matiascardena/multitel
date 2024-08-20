@@ -10,6 +10,8 @@ AOS.init();
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <BrowserRouter>
-    <App className="font-lora" />
+    <div className="force-portrait">
+      <App className="font-lora" />
+    </div>
   </BrowserRouter>
 );

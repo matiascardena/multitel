@@ -5,3 +5,12 @@ main{
     width:100%;
     padding:20px
 }
+
+@media (orientation: landscape) {
+    .force-portrait {
+      width: 100vh;
+      transform: rotate(-90deg);
+      transform-origin: left top;
+      overflow-y: scroll;
+    }
+  }
