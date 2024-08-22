@@ -41,7 +41,7 @@ export const ConocenosPage = () => {
   };
 
   return (
-      <section className="md:landscapes:h-screen sm:landscapes:h-screen h-full w-full text-gray-600 body-font overflow-hidden">
+      <section className="md:landscapes:h-screen xs:landscapes:h-screen sm:landscapes:h-screen h-full w-full text-gray-600 body-font overflow-hidden">
       <HeaderBasico />
         <div className="container px-5 py-24 mx-auto">
           <div className="lg:w-4/5 mx-auto flex flex-wrap">
@@ -87,7 +87,7 @@ export const ConocenosPage = () => {
              hidden: { opacity: 0, x: -50 },
              visible: { opacity: 1, x: 0 }
            }}
-        className="md:landscapes:hidden sm:landscapes:hidden xl:w-1/2 lg:w-1/2 w-full h-full flex w-full justify-center items-center p-1 mt-5 object-center">
+        className="md:landscapes:hidden sm:landscapes:hidden xs:landscapes:hidden xl:w-1/2 lg:w-1/2 w-full h-full flex w-full justify-center items-center p-1 mt-5 object-center">
            <img loading="lazy" className="w-1/2 h-1/2 items-center m-1" src="./Logo_Multitel.webp" />
              {/* <p className="text-8xl text-black"> <b>Multi</b> </p>
             <p className="text-8xl text-Multitel"> <b>Tel</b> </p>           */}

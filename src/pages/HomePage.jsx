@@ -52,14 +52,14 @@ const HomePages = () => {
 				<SeccionConocenos />
 			</div>
 
-			<div id="SeccionConsultanos" className="h-1/2 lg:h-screen xl:h-screen sm:landscapes:mb-full md:landscapes:h-full md:h-screen w-full">
+			<div id="SeccionConsultanos" className="h-1/2 lg:h-screen xl:h-screen xs:landscapes:mb-full sm:landscapes:mb-full md:landscapes:h-full md:h-screen w-full">
 				<SeccionConsultanos />
 			</div>
 
 			<div className="h-1 bg-gray-200 rounded overflow-hidden md:mt-2">
 				<div className="w-40 h-full bg-Multitel"></div>
 			</div>
-			<div className="h-full w-full sm:landscapes:mb-full md:landscapes:h-full">
+			<div className="h-full w-full xs:landscapes:mb-full  sm:landscapes:mb-full md:landscapes:h-full">
 				<Footer />
 			</div>
 		</>

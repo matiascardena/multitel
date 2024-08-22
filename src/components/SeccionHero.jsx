@@ -4,6 +4,7 @@ const SeccionHero = () => {
   return (
     <section className="text-gray-600 body-font overflow-hidden">
       <div className="flex py-12 
+        xs:landscapes:flex-row xs:landscapes:py-2 
         sm:landscapes:flex-row sm:landscapes:py-2 
         md:landscapes:flex-row md:landscapes:py-2 
         md:flex-row md:h-full md:w-full sm:h-full sm:w-full flex-col items-center justify-center relative">

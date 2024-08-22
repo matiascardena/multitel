@@ -33,7 +33,7 @@ const ProductosPage = () => {
                   hidden: { opacity: 0, y: 50 },
                   visible: { opacity: 1, y: 0 }
                 }}
-                className="sm:w-2/5 sm:landscapes:hidden text-gray-900 font-medium title-font text-3xl mb-1 sm:mb-0"></motion.h1>
+                className="sm:w-2/5 xs:landscapes:hidden sm:landscapes:hidden text-gray-900 font-medium title-font text-3xl mb-1 sm:mb-0"></motion.h1>
               <motion.p
                 initial="hidden"
                 whileInView="visible"
@@ -43,7 +43,7 @@ const ProductosPage = () => {
                   hidden: { opacity: 0, y: 50 },
                   visible: { opacity: 1, y: 0 }
                 }}
-                className="sm:w-3/5 sm:landscapes:w-full sm:landscapes:pl-1 leading-relaxed text-3xl text-gray-900 sm:pl-10"><strong className="text-black">Nuestros </strong><strong className="text-Multitel">Productos</strong></motion.p>
+                className="sm:w-3/5 xs:landscapes:w-full xs:landscapes:pl-1  sm:landscapes:w-full sm:landscapes:pl-1leading-relaxed text-3xl text-gray-900 sm:pl-10"><strong className="text-black">Nuestros </strong><strong className="text-Multitel">Productos</strong></motion.p>
             </div>
           </div>
           <div id="seccionRelojes" className="flex flex-col">
@@ -69,7 +69,7 @@ const ProductosPage = () => {
               .filter(item => item.categoria === 'RELOJES')
               .slice(0, MAXPropuestas) // Toma solo los primeros MAXPropuestas elementos
               .map((item, index) => (
-                <div key={index} className="w-full md:w-1/2 lg:w-1/4 xl:w-1/4 p-2 sm:landscapes:h-1/2">
+                <div key={index} className="w-full md:w-1/2 lg:w-1/4 xl:w-1/4 p-2 xs:landscapes:h-1/2 sm:landscapes:h-1/2">
                   <CardsProduct item={item} />
                 </div>
               ))}

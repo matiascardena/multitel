@@ -12,8 +12,8 @@ const HeaderProductosPage = () => {
 
   return (
     <div className="bg-white fixed left-0 top-0 w-full z-10 ease-in h-12 mx-auto">
-      <div className="max-w-[1240px] m-auto mb-4 mt-2 sm:landscapes:items-start sm:landscapes:mb-0 md:mb-0 flex flex-wrap items-center justify-center">
-      <a href="/#Home" className="hidden sm:flex sm:landscapes:mr-20 text-Multitel ml-10 items-center">
+      <div className="max-w-[1240px] m-auto mb-4 mt-2 xs:landscapes:items-start xs:landscapes:mb-0 sm:landscapes:items-start sm:landscapes:mb-0 md:mb-0 flex flex-wrap items-center justify-center">
+      <a href="/#Home" className="hidden sm:flex xs:landscapes:mr-20 sm:landscapes:mr-20 text-Multitel ml-10 items-center">
       <img loading="lazy" className="w-3/4 h-10 items-right" src="./Multitel_EsControl.jpg" />
               {/* <span className="text-xl text-black"> <b>Multi</b> </span>
               <span className="text-xl text-Multitel"> <b>Tel</b> </span> */}
