@@ -35,7 +35,7 @@ const HomePages = () => {
 			</div>
 
 			<div id="SeccionProductos" className="lg:h-screen xl:h-screen w-full h-full">
-				<SeccionProductos productos={3} />
+				<SeccionProductos _productos={3} />
 			</div>
 			{habilitarObras && (
 				<div id="SeccionObras" className="lg:h-screen xl:h-screen w-full h-full overflow-hidden relative"
@@ -52,14 +52,14 @@ const HomePages = () => {
 				<SeccionConocenos />
 			</div>
 
-			<div id="SeccionConsultanos" className="h-1/2 lg:h-screen xl:h-screen md:h-screen w-full">
+			<div id="SeccionConsultanos" className="h-1/2 lg:h-screen xl:h-screen sm:landscapes:mb-full md:landscapes:h-full md:h-screen w-full">
 				<SeccionConsultanos />
 			</div>
 
 			<div className="h-1 bg-gray-200 rounded overflow-hidden md:mt-2">
 				<div className="w-40 h-full bg-Multitel"></div>
 			</div>
-			<div className="h-full w-full">
+			<div className="h-full w-full sm:landscapes:mb-full md:landscapes:h-full">
 				<Footer />
 			</div>
 		</>

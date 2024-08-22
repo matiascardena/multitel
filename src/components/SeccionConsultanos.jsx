@@ -157,7 +157,7 @@ const SeccionConsultanos = () => {
 	};
 
 	return (
-		<section className="h-full w-full lg:h-screen xl:h-screen lg:py-16 xl:py-16">
+		<section className="h-full w-full lg:h-screen xl:h-screen lg:py-16 xl:py-16 mb-1 sm:landscapes:mb-5 md:landscapes:mb-5">
 			<div className="container px-4 py-4 mx-auto">
 				<div className="flex flex-col gap-4 lg:flex-row xl:flex-row">
 					<div

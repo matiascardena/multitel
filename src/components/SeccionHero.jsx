@@ -2,8 +2,11 @@ import { motion } from 'framer-motion';
 
 const SeccionHero = () => {
   return (
-    <section className="text-gray-600 body-font pt-10 overflow-hidden">
-      <div className="flex py-24 md:flex-row md:h-full md:w-full sm:h-full sm:w-full flex-col items-center justify-center relative">
+    <section className="text-gray-600 body-font overflow-hidden">
+      <div className="flex py-12 
+        sm:landscapes:flex-row sm:landscapes:py-2 
+        md:landscapes:flex-row md:landscapes:py-2 
+        md:flex-row md:h-full md:w-full sm:h-full sm:w-full flex-col items-center justify-center relative">
       
         <motion.div
            initial="hidden"
@@ -14,10 +17,10 @@ const SeccionHero = () => {
              hidden: { opacity: 0, x: -50 },
              visible: { opacity: 1, x: 0 }
            }}
-        className="lg:max-w-lg lg:w-full md:w-1/2 flex w-full justify-center items-center p-2">
-             <p className="text-8xl text-black"> <b>Multi</b> </p>
-            <p className="text-8xl text-Multitel"> <b>Tel</b> </p>
-          {/* <img className="object-cover object-center rounded" alt="hero" src="./Logo_Multitel.png" /> */}
+        className="lg:max-w-lg lg:w-full xl:w-full md:w-1/2 flex w-full justify-center items-center ">
+             {/* <p className="text-8xl text-black"> <b>Multi</b> </p>
+            <p className="text-8xl text-Multitel"> <b>Tel</b> </p> */}
+           <img className="object-cover object-center rounded" alt="hero" src="./Logo_Multitel.webp" />
           
         </motion.div>
         <small className="absolute w-40 h-40 bg-Multitel rounded-full -top-20 -right-20"></small>
@@ -32,17 +35,7 @@ const SeccionHero = () => {
               visible: { opacity: 1, y: 0 }
             }}
             className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 justify-center w-full">Distribuidor oficial <strong>CRONOS</strong></motion.h1>
-          <motion.p
-             initial="hidden"
-             whileInView="visible"
-             viewport={{ once: true, amount: 0.5 }}
-             transition={{ delay: 0.3, duration: 0.5 }}
-             variants={{
-               hidden: { opacity: 0, y: 50 },
-               visible: { opacity: 1, y: 0 }
-             }}
-          className="mb-8 leading-relaxed"><strong className="text-black">Multi</strong><strong className="text-Multitel">Tel</strong> es una empresa consolidada que nació como resultado de un profundo análisis del mercado de las Comunicaciones, Control de Personal y Seguridad Industrial, donde se visualizaron necesidades reales de soluciones y herramientas de alta tecnología para satisfacer este mercado.</motion.p>
-          <motion.div
+        <motion.div
              initial="hidden"
              whileInView="visible"
              viewport={{ once: true, amount: 0.5 }}

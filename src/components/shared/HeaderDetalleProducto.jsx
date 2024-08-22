@@ -12,12 +12,12 @@ const HeaderDetalleProducto = ({item}) => {
 
 
   return (
-    <div className="bg-white fixed left-0 top-0 w-full z-10 ease-in xs:h-12 md:h-24 lg:h-12 xl:h-12 mx-auto">
-      <div className="max-w-[1240px] m-auto mb-4 mt-2 md:mb-0 flex flex-wrap items-center justify-center">
-      <Link to="/ProductosPage" className="hidden sm:flex text-Multitel ml-10 items-center">
-              {/* <img loading="lazy" className="w-10 h-10 items-right m-1" src="./Logo_Multitel.png" /> */}
-              <span className="text-xl text-black"> <b>Multi</b> </span>
-              <span className="text-xl text-Multitel"> <b>Tel</b> </span>
+    <div className="bg-white fixed left-0 top-0 w-full z-10 ease-in h-12 mx-auto">
+      <div className="max-w-[1240px] m-auto mb-4 mt-2 md:mb-0 sm:landscapes:mb-0 flex flex-wrap items-center justify-center">
+      <Link to="/ProductosPage" className="hidden sm:flex sm:landscapes:mr-20 text-Multitel ml-10 items-center">
+      <img loading="lazy" className="w-3/4 h-10 items-right" src="./Multitel_EsControl.jpg" />
+              {/* <span className="text-xl text-black"> <b>Multi</b> </span>
+              <span className="text-xl text-Multitel"> <b>Tel</b> </span> */}
             </Link>
       <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center mr-2">
         <ul className="hidden sm:flex">
@@ -50,7 +50,7 @@ const HeaderDetalleProducto = ({item}) => {
               onClick={handleNav}
               className="flex p-4 justify-center">
               <Link to="/ProductosPage" >
-                <img loading="lazy" className="w-15 h-15" src="./Logo_Multitel.png" />
+                <img loading="lazy" className="w-15 h-15" src="./Logo_Multitel.webp" />
               </Link>
             </li>
             <li
@@ -61,7 +61,7 @@ const HeaderDetalleProducto = ({item}) => {
             <li
               onClick={handleNav}
               className="p-4 text-2xl hover:text-blue-400 transition-colors duration-300 border-b-2 hover:border-blue-400 transition-colors duration-300">
-                <Link smooth to="/DetalleProductoPage/${item.id}/#seccionDescargas">Descargas</Link>
+                <Link smooth to={`/DetalleProductoPage/${item.id}/#seccionDescargas`}>Descargas</Link>
             </li>
           </ul>
         </div>
@@ -77,7 +77,7 @@ HeaderDetalleProducto.propTypes = {
       id:PropTypes.string.isRequired,
       titulo: PropTypes.string.isRequired,
       subTitulo: PropTypes.string.isRequired,
-      imagen: PropTypes.string.isRequired
+      imagen: PropTypes.string
   }).isRequired
 };
 

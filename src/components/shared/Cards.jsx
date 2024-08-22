@@ -1,5 +1,4 @@
 import PropTypes from "prop-types";
-import { Link } from 'react-router-dom';
 
 export const Cards = ({item}) => {
 
@@ -11,11 +10,11 @@ export const Cards = ({item}) => {
             <h2 className="text-xl font-medium title-font text-black mt-3"><b>{item.titulo}</b></h2>
             <h2 className="text-md font-medium title-font text-gray-900 mt-1">{item.subTitulo}</h2>
 
-            <Link to="/ProductosPage" className="text-AceroCorp inline-flex items-center mt-3">Más detalles
+            {/* <Link to="/ProductosPage" className="text-AceroCorp inline-flex items-center mt-3">Más detalles
                 <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className=" w-4 h-4 ml-2" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
-            </Link>
+            </Link> */}
         </div>
 
     )

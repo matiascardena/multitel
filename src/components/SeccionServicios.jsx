@@ -30,7 +30,7 @@ export const SeccionServicios = () => {
       <div className="p-4 md:w-1/4 sm:w-1/2 w-full h-full">
         <div className="border-2 border-gray-200 px-4 py-6 rounded-lg">
         <i className="fas fa-screwdriver-wrench text-Multitel w-11 h-11 mb-3 inline-block"></i>
-          <p className="leading-relaxed">Soporte - Mantenimiento</p>
+          <p className="leading-relaxed ">Soporte  Técnico</p>
         </div>
       </div>
 
