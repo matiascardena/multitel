@@ -48,11 +48,11 @@ const HomePages = () => {
 			</div> 
 			)
 			}
-			<div id="SeccionConocenos" className="lg:h-screen xl:h-screen w-full h-full overflow-hidden relative bg-gray-200">
+			<div id="SeccionConocenos" className="lg:h-screen xl:h-screen w-full h-full overflow-hidden relative bg-gray-200 landscapes:h-full">
 				<SeccionConocenos />
 			</div>
 
-			<div id="SeccionConsultanos" className="h-1/2 lg:h-screen xl:h-screen xs:landscapes:mb-full sm:landscapes:mb-full md:landscapes:h-full md:h-screen w-full">
+			<div id="SeccionConsultanos" className="h-1/2 lg:h-screen xl:h-screen landscapes:h-full md:h-screen w-full">
 				<SeccionConsultanos />
 			</div>
 
