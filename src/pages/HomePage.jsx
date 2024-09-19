@@ -30,11 +30,11 @@ const HomePages = () => {
 				</div>
 			)}
 			
-			<div id="SeccionServicios" className="lg:h-screen xl:h-screen w-full h-full overflow-hidden relative">
+			<div id="SeccionServicios" className="lg:h-screen xl:h-screen w-full h-full overflow-hidden relative landscapes:h-full">
 				<SeccionServicios />
 			</div>
 
-			<div id="SeccionProductos" className="lg:h-screen xl:h-screen w-full h-full">
+			<div id="SeccionProductos" className="lg:h-screen xl:h-screen w-full h-full landscapes:h-full">
 				<SeccionProductos _productos={3} />
 			</div>
 			{habilitarObras && (
