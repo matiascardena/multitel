@@ -23,6 +23,14 @@ function App() {
     // Restablecer la posición del scroll cuando se carga una nueva página
     resetScrollPosition();
   }, []);
+  
+  useEffect(() => {
+    if (window.screen.orientation) {
+      window.screen.orientation.lock('portrait').catch((error) => {
+        console.log('Error al bloquear la orientación:', error);
+      });
+    }
+  }, []);
 
   useEffect(() => {
     setLoading(true);
