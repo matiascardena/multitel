@@ -16,7 +16,7 @@ const HomePages = () => {
 
 	return (
 		<>
-			<div id="Home" className="w-screen h-screen overflow-hidden relative">
+			<div id="Home" className="w-screen h-screen overflow-hidden relative landscapes:h-screen">
 				<Header />
 				<Hero />
 				<small className="absolute w-20 h-20 bg-black rounded-full -bottom-10 -right-10"></small>
