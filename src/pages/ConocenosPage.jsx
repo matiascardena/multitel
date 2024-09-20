@@ -45,7 +45,7 @@ export const ConocenosPage = () => {
       <HeaderBasico />
         <div className="container px-5 py-24 mx-auto">
           <div className="lg:w-4/5 mx-auto flex flex-wrap">
-            <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
+            <div className="lg:w-1/2 w-full landscapes:w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
               <h2 className="text-sm title-font text-gray-500 tracking-widest">Distribuidor oficial CRONOS</h2>
               <h1 className="text-gray-900 text-3xl title-font font-medium mb-4">Multitel</h1>
               <div className="flex mb-4">
@@ -70,7 +70,7 @@ export const ConocenosPage = () => {
               </div>
               {renderContent()}
             </div>
-             <motion.div
+            <motion.div
            initial="hidden"
            whileInView="visible"
            viewport={{ once: true, amount: 0.5 }}
@@ -79,9 +79,9 @@ export const ConocenosPage = () => {
              hidden: { opacity: 0, x: -50 },
              visible: { opacity: 1, x: 0 }
            }}
-        className="xl:w-1/2 lg:w-1/2 w-full h-full flex w-full justify-center items-center p-1 mt-5 object-center">
+        className="xl:w-1/2 lg:w-1/2 w-full h-full flex w-full justify-center items-center p-1 mt-5 object-center landscape:hidden">
            <img loading="lazy" className="w-1/2 object-cover object-center rounded items-center m-1 h-auto landscape:w-3/4" src="./Logo_Multitel.webp" />
-        </motion.div>
+            </motion.div>
           </div>
         </div>
       </section>
