@@ -41,9 +41,9 @@ export const ConocenosPage = () => {
   };
 
   return (
-      <section className="landscapes:h-full h-full w-full text-gray-600 body-font overflow-hidden">
+      <section className="landscapes:h-screen h-full w-full text-gray-600 body-font overflow-hidden">
       <HeaderBasico />
-        <div className="container px-5 py-24 mx-auto">
+        <div className="container px-5 py-24 landscapes:py-15 mx-auto">
           <div className="lg:w-4/5 mx-auto flex flex-wrap">
             <div className="lg:w-1/2 w-full landscapes:w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
               <h2 className="text-sm title-font text-gray-500 tracking-widest">Distribuidor oficial CRONOS</h2>
