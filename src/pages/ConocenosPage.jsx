@@ -69,15 +69,7 @@ export const ConocenosPage = () => {
                 </a>
               </div>
               {renderContent()}
-              <div className="flex border-t border-b mb-6 border-gray-200 py-2">
-                {/* Puedes agregar contenido adicional aquí */}
-              </div>
             </div>
-            {/* <img
-              alt="ecommerce"
-              className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
-              src="/QuienesSomos.jpg"
-            /> */}
              <motion.div
            initial="hidden"
            whileInView="visible"
@@ -88,9 +80,7 @@ export const ConocenosPage = () => {
              visible: { opacity: 1, x: 0 }
            }}
         className="xl:w-1/2 lg:w-1/2 w-full h-full flex w-full justify-center items-center p-1 mt-5 object-center">
-           <img loading="lazy" className="w-1/2 h-1/2 items-center m-1" src="./Logo_Multitel.webp" />
-             {/* <p className="text-8xl text-black"> <b>Multi</b> </p>
-            <p className="text-8xl text-Multitel"> <b>Tel</b> </p>           */}
+           <img loading="lazy" className="w-1/2 object-cover object-center rounded items-center m-1 h-auto landscape:w-3/4" src="./Logo_Multitel.webp" />
         </motion.div>
           </div>
         </div>
