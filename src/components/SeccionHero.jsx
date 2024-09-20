@@ -21,7 +21,7 @@ const SeccionHero = () => {
         className="lg:max-w-lg lg:w-full xl:w-full md:w-1/2 flex w-full justify-center items-center ">
              {/* <p className="text-8xl text-black"> <b>Multi</b> </p>
             <p className="text-8xl text-Multitel"> <b>Tel</b> </p> */}
-           <img className="object-cover object-center rounded" alt="hero" src="./Logo_Multitel.webp" />
+           <img className="object-cover object-center rounded w-full h-auto landscape:w-3/4" alt="hero" src="./Logo_Multitel.webp" />
           
         </motion.div>
         <small className="absolute w-40 h-40 bg-Multitel rounded-full -top-20 -right-20"></small>
